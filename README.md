@@ -6,12 +6,6 @@
 ![Last Commit](https://img.shields.io/github/last-commit/Nalinkumar2002/vsd_pll_workshop?color=green)
 
 
-## 1. Introduction to On-chip clock multiplier
-
- This repository focuses on design of On-Chip clock multiplier / PLL for VSD Open 2021 PLL Workshop.
- In this repository we are going to cover a brief description on PLL and also its pre-layout and post-layout simulations. 
- PLL is found in many wireless, radio, and general electronic items from mobile phones to broadcast radios, televisions to Wi-Fi routers, walkie talkie radios to professional   communications systems etc.
-The On-chip clock multiplier is present in almost all synchronous processor chips (Integrated circuits).
 
 
 
@@ -23,6 +17,13 @@ The On-chip clock multiplier is present in almost all synchronous processor chip
 - [6. Author](#6-Author)
 - [7. Acknowledgments](#7-acknowledgments)
 - [8. References](#8-References)
+
+## 1. Introduction to On-chip clock multiplier
+
+ This repository focuses on design of On-Chip clock multiplier / PLL for VSD Open 2021 PLL Workshop.
+ In this repository we are going to cover a brief description on PLL and also its pre-layout and post-layout simulations. 
+ PLL is found in many wireless, radio, and general electronic items from mobile phones to broadcast radios, televisions to Wi-Fi routers, walkie talkie radios to professional   communications systems etc.
+The On-chip clock multiplier is present in almost all synchronous processor chips (Integrated circuits).
 
 
 ## 4. EDA Tools Used 
