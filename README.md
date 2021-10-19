@@ -59,12 +59,6 @@ Fig: Block Diagrm of PLL Design.
 
 </p>
 
-| Input Frequency | Output Frequency |
-| :---:  | :-: |
-|5MHz|39.73MHz|
-|10MHz|80.91MHz|
-|12MHz|96.1MHz|
-|12.5MHz|99.81MHz|
 
 ## 6. Post-Layout Simulations 
 
@@ -73,7 +67,7 @@ Fig: Block Diagrm of PLL Design.
 
 </p>
 
-Fig: Layout of Phase Frequency Detector (PFD) or Phase Detector (PD)
+ Layout of Phase Frequency Detector (PFD) or Phase Detector (PD)
 
 </p>
 </p>
@@ -82,7 +76,7 @@ Fig: Layout of Phase Frequency Detector (PFD) or Phase Detector (PD)
 
 </p>
 
-Fig: Input-Output waveforms of Phase Frequency Detector (PFD) or Phase Detector (PD) </p>
+Input-Output waveforms of Phase Frequency Detector (PFD) or Phase Detector (PD) </p>
      Inputs - Fin (Input Frequency) &
               Fvco_8 (Output Frequency divide by 8) </p> </p>
      Outputs - Up Signal &
@@ -97,7 +91,7 @@ Fig: Input-Output waveforms of Phase Frequency Detector (PFD) or Phase Detector 
 
 </p>
 
-Fig: Layout of Voltage Controlled Oscillator (VCO).
+Layout of Voltage Controlled Oscillator (VCO)
 
 </p>
 
@@ -108,7 +102,7 @@ Fig: Layout of Voltage Controlled Oscillator (VCO).
 
 </p>
 
-Fig: Input-Output waveforms of Voltage Controlled Oscillator (VCO). </p>
+ Input-Output waveforms of Voltage Controlled Oscillator (VCO) </p>
 Vin - Input Voltage </p>
 Fout - Output Frequency
 
@@ -121,7 +115,7 @@ Fout - Output Frequency
 
 </p>
 
-Fig: Layout of Frequency Divider by 2. </p> 
+ Layout of Frequency Divider by 2 </p> 
 </p>
 
 
@@ -129,7 +123,7 @@ Fig: Layout of Frequency Divider by 2. </p>
 
 </p>
 
-Fig: Input-Output waveforms of Frequency Divider by 2. </p>
+Input-Output waveforms of Frequency Divider by 2 </p>
 clk - Input Freqency. </p>
 q - Output Freqency (Input Freq. by 2). </p>
 
@@ -141,7 +135,7 @@ q - Output Freqency (Input Freq. by 2). </p>
 </p>
 </p>
 
-Fig: Layout of Frequency Divider by 8. </p> 
+ Layout of Frequency Divider by 8 </p> 
 </p>
 
 
@@ -149,7 +143,7 @@ Fig: Layout of Frequency Divider by 8. </p>
 
 </p>
 
-Fig: Input-Output waveforms of Frequency Divider by 8. </p>
+ Input-Output waveforms of Frequency Divider by 8 </p>
 clk - Input Freqency. </p>
 q - Output Freqency (Input Freq. by 8). </p>
 
@@ -159,13 +153,13 @@ q - Output Freqency (Input Freq. by 8). </p>
 ![Alt Text](Images/mux21.png)
 
 </p>
-Fig: Layout of 2:1 MUX. </p> 
+ Layout of 2:1 MUX </p> 
 </p>
 
 ![Alt Text](Images/postlayout_mux.png)
 
 </p>
-Fig: Input-Output waveforms of of 2:1 MUX. </p> 
+Input-Output waveforms of of 2:1 MUX </p> 
 i1 - Input 1 </p> 
 i2 - Input 2 </p> 
 sel - Select </p> 
@@ -179,7 +173,7 @@ out - Output </p>
 
 </p>
 </p>
-Fig: Layout of Phase Lock Loop (Combining all the Sub-circuits of PLL). </p> 
+Layout of Phase Lock Loop </p> 
 </p>
 
 #### a. Input frequency = 5MHz
@@ -190,19 +184,8 @@ Fig: Layout of Phase Lock Loop (Combining all the Sub-circuits of PLL). </p>
 
 </p>
 </p>
-Fig: Input-Output waveforms of PLL. </p> 
-Fin - Input Frequency. </p> 
-Fvco_8 - Output Frequency divide by 8. </p> 
-up - Up signal </p> 
-down - Down signal </p> 
-Vcp - Input Voltaage of VCO  </p> 
-fout - Output Frequency </p> 
-</p>
+Input-Output waveforms of PLL. </p> 
 
-
-
-Note: As there were limitaions for for layout of capacitor in OSU180 tech file, I'm unable to make layout of Low Pass Filter.
-However, using more mature & advanced nodes & PDK tech file, it can be made on silicon. 
 
 
 
