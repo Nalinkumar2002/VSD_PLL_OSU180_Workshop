@@ -1,7 +1,12 @@
-## 1. Introduction to On-chip clock multiplier
-This repository contains simulation files and other relevant files on the On-chip clock multiplier using PLL (Fclkin—5MHz to 12MHz, Fclkout—40MHZ to 100MHZ at 1.8v) IP worked on in the VSD Online Internship.
+# vsd_pll_workshop
 
-The target is to design a On-chip clock multiplier using the osu180nm technology node. The [specifications](https://github.com/parasgidd/avsdpll_3v3/blob/master/Documents/avsdpll_3v3.pdf) are provided from VSD Corporation Pvt. Ltd.
+![Size](https://img.shields.io/github/repo-size/Nalinkumar2002/vsd_pll_workshop?color=red)
+![Last Commit](https://img.shields.io/github/last-commit/Nalinkumar2002/vsd_pll_workshop?color=green)
+
+
+## 1. Introduction to On-chip clock multiplier
+This repository contains simulation files and other relevant files on the On-chip clock multiplier using PLL (Fclkin—5MHz to 12MHz, Fclkout—40MHZ to 100MHZ at 1.8v) IP worked on in the VSD PLL Workshop.
+The target is to design a On-chip clock multiplier using the osu180nm technology node. 
 The On-chip clock multiplier is present in almost all synchronous processor chips (Integrated circuits).
 
 
@@ -13,11 +18,9 @@ The On-chip clock multiplier is present in almost all synchronous processor chip
 - [4. EDA Tools Used](#4-eda-tools-used)
 - [5. Pre-layout Simulations](#5-Pre-layout-Simulations)
 - [6. Post-layout and Simulations](#6-Post-Layout-Simulations)
-- [7. Future work](#7-Future-work)
-- [8. Author](#8-Author)
-- [9. Contributors](#9-Contributors)
-- [10. Acknowledgments](#10-acknowledgments)
-- [11. Contact Information -](#10-contact-information--)
+- [7. Author](#-Author)
+- [8. Acknowledgments](#8-acknowledgments)
+
 
 ## 2. Theory
 
@@ -62,7 +65,7 @@ The complete circuit of PLL is built hierarchically using the following subcircu
 
 </p>
 
-![Alt Text](https://github.com/parasgidd/avsdpll_3v3/blob/master/images/blockdiagram.jpg)
+![Alt Text](Image/blockdiagram.jpg)
 
 </p>
 
@@ -72,26 +75,15 @@ Fig: Block Diagrm of PLL Design.
 
 </p>
 
-</p>
-
-![Alt Text](https://github.com/parasgidd/avsdpll_3v3/blob/master/images/Ngspice_5Mop.jpg)
-
-</p>
-
-Fig: Input-Output waveforms from Pre-layout Simulation. </p> 
-Fin - Input Frequency. (Red) </p> 
-up - Up signal (Blue) </p> 
-down - Down signal (Yellow) </p> 
-Vcp - Input Voltaage of VCO (Green) </p> 
-fout - Output Frequency (Pink) </p> 
-</p>
-
-
 
 </p>
 </p>
 
 **Pre-layout Simulation Results**
+
+</p>
+
+![Alt Text](Images/prelayout_pll.png)
 
 </p>
 
@@ -105,7 +97,7 @@ fout - Output Frequency (Pink) </p>
 ## 6. Post-Layout Simulations 
 
 ### A. Phase Frequency Detector
-![Alt Text](https://github.com/parasgidd/avsdpll_3v3/blob/master/Post%20Layout%20Simulation/pfd/pfd.png)
+![Alt Text](Images/pfd.png)
 
 </p>
 
@@ -114,7 +106,7 @@ Fig: Layout of Phase Frequency Detector (PFD) or Phase Detector (PD)
 </p>
 </p>
 
-![Alt Text](https://github.com/parasgidd/avsdpll_3v3/blob/master/Post%20Layout%20Simulation/pfd/pfdw.png)
+![Alt Text](Images/postlayout_pfd.png)
 
 </p>
 
@@ -128,7 +120,7 @@ Fig: Input-Output waveforms of Phase Frequency Detector (PFD) or Phase Detector 
 </p>
 
 ### B. Voltage Controlled Oscillator
-![Alt Text](https://github.com/parasgidd/avsdpll_3v3/blob/master/Post%20Layout%20Simulation/vco/vco101.png)
+![Alt Text](Images/vco101.png)
 
 
 </p>
@@ -139,7 +131,8 @@ Fig: Layout of Voltage Controlled Oscillator (VCO).
 
 </p>
 
-![Alt Text](https://github.com/parasgidd/avsdpll_3v3/blob/master/Post%20Layout%20Simulation/vco/vco101w.png)
+![Alt Text](Images/postlayout_vco_in.png)
+![Alt Text](Images/postlayout_vco_out.png)
 
 </p>
 
@@ -152,7 +145,7 @@ Fout - Output Frequency
 </p>
 
 ### C. Frequency Divider by 2
-![Alt Text](https://github.com/parasgidd/avsdpll_3v3/blob/master/Post%20Layout%20Simulation/freqdiv2/freqdiv2.png)
+![Alt Text](Images/freqdiv2.png)
 
 </p>
 
@@ -160,7 +153,7 @@ Fig: Layout of Frequency Divider by 2. </p>
 </p>
 
 
-![Alt Text](https://github.com/parasgidd/avsdpll_3v3/blob/master/Post%20Layout%20Simulation/freqdiv2/freq_divider2w.png)
+![Alt Text](Images/postlayout_freq_div_2.png)
 
 </p>
 
@@ -171,7 +164,7 @@ q - Output Freqency (Input Freq. by 2). </p>
 </p>
 
 ### D. Frequency Divider by 8
-![Alt Text](https://github.com/parasgidd/avsdpll_3v3/blob/master/Post%20Layout%20Simulation/freqdiv8/freqdiv8.png)
+![Alt Text](Images/freqdiv8.png)
 
 </p>
 </p>
@@ -180,7 +173,7 @@ Fig: Layout of Frequency Divider by 8. </p>
 </p>
 
 
-![Alt Text](https://github.com/parasgidd/avsdpll_3v3/blob/master/Post%20Layout%20Simulation/freqdiv8/freqdiv8w.png)
+![Alt Text](Images/postlayout_freq_div_8.png)
 
 </p>
 
@@ -191,13 +184,13 @@ q - Output Freqency (Input Freq. by 8). </p>
 </p>
 
 ### E. 2:1 MUX
-![Alt Text](https://github.com/parasgidd/avsdpll_3v3/blob/master/Post%20Layout%20Simulation/mux21/mux21.png)
+![Alt Text](Images/mux21.png)
 
 </p>
 Fig: Layout of 2:1 MUX. </p> 
 </p>
 
-![Alt Text](https://github.com/parasgidd/avsdpll_3v3/blob/master/Post%20Layout%20Simulation/mux21/mux21w.png)
+![Alt Text](Images/postlayout_mux.png)
 
 </p>
 Fig: Input-Output waveforms of of 2:1 MUX. </p> 
@@ -210,7 +203,7 @@ out - Output </p>
 ### F. Phase lock Loop 
 </p>
 
-![Alt Text](https://github.com/parasgidd/avsdpll_3v3/blob/master/Post%20Layout%20Simulation/PLL/PLLv3.png)
+![Alt Text](Images/PLLv3.png)
 
 </p>
 </p>
@@ -221,122 +214,33 @@ Fig: Layout of Phase Lock Loop (Combining all the Sub-circuits of PLL). </p>
 
 </p>
 
-![Alt Text](https://github.com/parasgidd/avsdpll_3v3/blob/master/Post%20Layout%20Simulation/PLL/5mv2/pll5mv2w.png)
+![Alt Text](Images/postlayout_pll.png)
 
 </p>
 </p>
 Fig: Input-Output waveforms of PLL. </p> 
-Fin - Input Frequency. (Top Red) </p> 
-Fvco_8 - Output Frequency divide by 8. (Blue) </p> 
-up - Up signal (Yellow) </p> 
-down - Down signal (Green) </p> 
-Vcp - Input Voltaage of VCO (Pink) </p> 
-fout - Output Frequency (Bottom Red) </p> 
+Fin - Input Frequency. </p> 
+Fvco_8 - Output Frequency divide by 8. </p> 
+up - Up signal </p> 
+down - Down signal </p> 
+Vcp - Input Voltaage of VCO  </p> 
+fout - Output Frequency </p> 
 </p>
 
-![Alt Text](https://github.com/parasgidd/avsdpll_3v3/blob/master/Post%20Layout%20Simulation/PLL/5mv2/pll5mv2opw.png)
-
-</p>
-</p>
-Fig: Input-Output waveforms of PLL. </p> 
-Fin - Input Frequency. (Red) </p> 
-fout - Output Frequency (Blue) </p> 
-</p>
-
-#### b. Input frequency = 10MHz
-
-![Alt Text](https://github.com/parasgidd/avsdpll_3v3/blob/master/Post%20Layout%20Simulation/PLL/10mv2/pll10mv2w.png)
-
-</p>
-</p>
-</p>
-Fig: Input-Output waveforms of PLL. </p> 
-Fin - Input Frequency. (Top Red) </p> 
-Fvco_8 - Output Frequency divide by 8. (Blue) </p> 
-up - Up signal (Yellow) </p> 
-down - Down signal (Green) </p> 
-Vcp - Input Voltaage of VCO (Pink) </p> 
-fout - Output Frequency (Bottom Red) </p> 
-</p>
-</p>
-
-![Alt Text](https://github.com/parasgidd/avsdpll_3v3/blob/master/Post%20Layout%20Simulation/PLL/10mv2/pll10mv2opw.png)
-
-</p>
-</p>
-Fig: Input-Output waveforms of PLL. </p> 
-Fin - Input Frequency. (Red) </p> 
-fout - Output Frequency (Blue) </p> 
-</p>
-
-
-#### c. Input frequency = 12.5MHz
-![Alt Text](https://github.com/parasgidd/avsdpll_3v3/blob/master/Post%20Layout%20Simulation/PLL/12_5mv2/pll12_5mv2w.png)
-
-</p>
-</p>
-</p>
-Fig: Input-Output waveforms of PLL. </p> 
-Fin - Input Frequency. (Top Red) </p> 
-Fvco_8 - Output Frequency divide by 8. (Blue) </p> 
-up - Up signal (Yellow) </p> 
-down - Down signal (Green) </p> 
-Vcp - Input Voltaage of VCO (Pink) </p> 
-fout - Output Frequency (Bottom Red) </p> 
-</p>
-
-
-![Alt Text](https://github.com/parasgidd/avsdpll_3v3/blob/master/Post%20Layout%20Simulation/PLL/12_5mv2/pll12_5mvv2opw.png)
-
-</p>
-</p>
-Fig: Input-Output waveforms of PLL. </p> 
-Fin - Input Frequency. (Red) </p> 
-fout - Output Frequency (Blue) </p> 
-</p>
-</p>
 
 
 Note: As there were limitaions for for layout of capacitor in OSU180 tech file, I'm unable to make layout of Low Pass Filter.
 However, using more mature & advanced nodes & PDK tech file, it can be made on silicon. 
 
-## 7. Future work
-
-1. Porting this IP on lower technology nodes using advance PDK's where capacitor fabrication is realizable 
-2. Area Efficient Design Improvements.
-3. Improvements for Power Reduction. 
-4. Improvements of accuracy, jitter & dead zone.
 
 
-## 8. Author
-- Paras Gidd, M.Tech.( Microelectronics ), Manipal Institute of Technology,(MAHE), parasgidd@gmail.com
+## 7. Author
 
-## 9. Contributors 
+🖊️ Nalinkumar S , B.E (Electronics and Communication Engineering), Madras Institute of Technology, Anna University, Tamil Nadu 
 
-- **Paras Gidd** 
-- **Kunal Ghosh** 
-- **Philipp Gühring** 
+## 8. Acknowledgments
 
-## 10. Acknowledgments
-- Kunal Ghosh, Co-founder VSD Corp. Pvt. Ltd.
-- Philipp Gühring, Software Architect, LibreSilicon Association.
-- FOSSEE Team, IIT Bombay
-- R. Timothy Edwards, Open Circuit Design
-- [Gerald Topalli](https://github.com/topalli16) - who helped me with basics of PLL & phase locking. </p>
-I would also like to thank research fellows for extending their help and guidance during the research internship program. They have their own projects & if you are interested in those projects have a look in the links provided below.
-
-- Sheryl Serrao - 10 bit ADC 3.3v analog voltage, 1.8v digital voltage and 1 off-chip external voltage reference
-- Reuel Reuben - [SRAM (1024 x 32): (32kbits or 4kB), 1.8V and access time is <2.5ns (OpenRAM)](https://github.com/ReuelReuben/vsdSRAM)
-- Ananya Ghorai - 10 bit ADC 3.3v analog voltage, 1.8v digital voltage and 1 off-chip external voltage reference
-- Yash Kumar - [SRAM (1024 x 32): (32kbits or 4kB), 1.8V and access time is <2.5ns (OpenRAM)](https://github.com/yash-k99/vsdsram)
-- Neethu Johny - [10bit potentiometric DAC 3.3v analog voltage, 1.8v digital voltage and 1 off-chip external voltage reference](https://github.com/neethujohny/avsddac_3v3)
-- Ashutosh Sharma - [10bit potentiometric DAC 3.3v analog voltage, 1.8v digital voltage and 1 off-chip external voltage reference](https://github.com/xzlashutosh/avsddac_3v3)
-
-And Last but not least, I would like to thank my **Parents & Teachers** who directly & indirectly helped me & their contribution is of great value for me.
-
-
-## 11. Contact Information - 
+ - Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
  - Paras Gidd, M.Tech.( Microelectronics ), Manipal Institute of Technology,(MAHE), parasgidd@gmail.com
- - Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
- - Philipp Gühring, Software Architect, LibreSilicon Association - pg@futureware.at
+
 
