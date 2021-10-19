@@ -24,7 +24,14 @@
  In this repository we are going to cover a brief description on PLL and also its pre-layout and post-layout simulations. 
  PLL is found in many wireless, radio, and general electronic items from mobile phones to broadcast radios, televisions to Wi-Fi routers, walkie talkie radios to professional   communications systems etc.
 The On-chip clock multiplier is present in almost all synchronous processor chips (Integrated circuits).
+</p>
+![Alt Text](Images/pll1.jpg)
 
+</p>
+
+Operation of feedback loop.
+
+</p>
 
 ## 4. EDA Tools Used 
 The design has been built using open-source EDA tools. The library used is osu180nm. 
@@ -41,15 +48,54 @@ The complete circuit of PLL is built hierarchically using the following subcircu
 
 </p>
 
-Fig: Block Diagrm of PLL Design.
+Block Diagrm of PLL Design.
 
 </p>
 
 </p>
+![Alt Text](Images/pfd_1.jpg)
 
+</p>
+
+Schematic of PFD.
+
+</p>
+
+</p>
+![Alt Text](Images/cp.jpg)
+
+</p>
+
+Schematic of Charge pump.
+
+</p>
+
+</p>
+![Alt Text](Images/vco.jpg)
+
+</p>
+
+Schematic of VCO.
 
 </p>
 </p>
+![Alt Text](Images/pf2.jpg)
+
+</p>
+
+Schematic of Frequency Divider by 2.
+
+</p>
+</p>
+![Alt Text](Images/pll2.jpg)
+
+</p>
+
+Schematic of PLL.
+
+</p>
+</p>
+
 
 **Pre-layout Simulation Results**
 
@@ -191,7 +237,7 @@ Input-Output waveforms of PLL. </p>
 
 ## 7. Author
 
-🖊️ Nalinkumar S , B.E (Electronics and Communication Engineering), Madras Institute of Technology, Anna University, Tamil Nadu 
+🖊️  Nalinkumar S , B.E (Electronics and Communication Engineering), Madras Institute of Technology, Anna University, Tamil Nadu 
 
 ## 8. Acknowledgments
 
