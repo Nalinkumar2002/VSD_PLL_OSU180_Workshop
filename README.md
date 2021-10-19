@@ -11,12 +11,12 @@
 
 ## Table of Contents
 - [1. Introduction to On-chip clock multiplier](#1-introduction-to-On-chip-clock-multiplier)
-- [3. EDA Tools Used](#3-eda-tools-used)
-- [4. Pre-layout Simulations](#4-Pre-layout-Simulations)
-- [5. Post-layout and Simulations](#5-Post-Layout-Simulations)
-- [6. Author](#6-Author)
-- [7. Acknowledgments](#7-acknowledgments)
-- [8. References](#8-References)
+- [2. EDA Tools Used](#2-eda-tools-used)
+- [3. Pre-layout Simulations](#3-Pre-layout-Simulations)
+- [4. Post-layout and Simulations](#4-Post-Layout-Simulations)
+- [5. Author](#5-Author)
+- [6. Acknowledgments](#6-acknowledgments)
+- [7. References](#7-References)
 
 ## 1. Introduction to On-chip clock multiplier
 
@@ -33,13 +33,29 @@ Operation of feedback loop.
 
 </p>
 
-## 4. EDA Tools Used 
+## 2. EDA Tools Used 
 The design has been built using open-source EDA tools. The library used is osu180nm. 
 
-1. [Ngspice](http://ngspice.sourceforge.net/download.html)
-2. [Magic](http://opencircuitdesign.com/magic/)
+🌟 Ngspice
+ 
+   * Ngspice is a mixed-level/mixed-signal electronic circuit simulator.
+   * Ngspice is based on three open-source free-software packages: 
+      * Spice3f5
+      * Xspice
+      * Cider1b1
+   
+      🔗 http://ngspice.sourceforge.net/
+      
+ 🌟 Magic
+ 
+  * Magic is a venerable VLSI layout tool, written in the 1980's at Berkeley by John Ousterhout, now famous primarily for writing the scripting interpreter language Tcl. Due largely in part to its liberal Berkeley open-source license, magic has remained popular with universities and small companies.
+  * The open-source license has allowed VLSI engineers with a bent toward programming to implement clever ideas and help magic stay abreast of fabrication technology. However, it is the well thought-out core algorithms which lend to magic the greatest part of its popularity.
+  * Magic is widely cited as being the easiest tool to use for circuit layout, even for people who ultimately rely on commercial tools for their product design flow.
+  
+    🔗 http://opencircuitdesign.com/magic/
 
-## 5. Pre-layout Simulations
+
+## 3. Pre-layout Simulations
 The complete circuit of PLL is built hierarchically using the following subcircuit blocks.
 
 </p>
@@ -111,7 +127,7 @@ Schematic of PLL.
 </p>
 
 
-## 6. Post-Layout Simulations 
+## 4. Post-Layout Simulations 
 
 ### A. Phase Frequency Detector
 ![Alt Text](Images/pfd.png)
@@ -240,16 +256,16 @@ Input-Output waveforms of PLL. </p>
 
 
 
-## 7. Author
+## 5. Author
 
 🖊️  Nalinkumar S , B.E (Electronics and Communication Engineering), Madras Institute of Technology, Anna University, Tamil Nadu 
 
-## 8. Acknowledgments
+## 6. Acknowledgments
 
  - Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
  - Paras Gidd, M.Tech.( Microelectronics ), Manipal Institute of Technology,(MAHE), parasgidd@gmail.com
 
-## 9. References
+## 7. References
 
 - https://github.com/parasgidd/avsdpll_3v3.git
 
