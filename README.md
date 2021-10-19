@@ -1,6 +1,6 @@
-# vsd_pll_workshop
+# PLL_OSU180nm_VSD
 
-![vsdopentutorial](https://user-images.githubusercontent.com/80625515/137896513-0cc9dace-0454-43a7-be28-a6ce883cf631.png)
+![vsdopentutorial](Images/vsd.png)
 
 ![Size](https://img.shields.io/github/repo-size/Nalinkumar2002/vsd_pll_workshop?color=red)
 ![Last Commit](https://img.shields.io/github/last-commit/Nalinkumar2002/vsd_pll_workshop?color=green)
