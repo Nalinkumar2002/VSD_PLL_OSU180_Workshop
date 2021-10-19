@@ -1,36 +1,28 @@
 # vsd_pll_workshop
 
+![vsdopentutorial](https://user-images.githubusercontent.com/80625515/137896513-0cc9dace-0454-43a7-be28-a6ce883cf631.png)
+
 ![Size](https://img.shields.io/github/repo-size/Nalinkumar2002/vsd_pll_workshop?color=red)
 ![Last Commit](https://img.shields.io/github/last-commit/Nalinkumar2002/vsd_pll_workshop?color=green)
 
 
 ## 1. Introduction to On-chip clock multiplier
-This repository contains simulation files and other relevant files on the On-chip clock multiplier using PLL (Fclkin—5MHz to 12MHz, Fclkout—40MHZ to 100MHZ at 1.8v) IP worked on in the VSD PLL Workshop.
-The target is to design a On-chip clock multiplier using the osu180nm technology node. 
+
+ This repository focuses on design of On-Chip clock multiplier / PLL for VSD Open 2021 PLL Workshop.
+ In this repository we are going to cover a brief description on PLL and also its pre-layout and post-layout simulations. 
+ PLL is found in many wireless, radio, and general electronic items from mobile phones to broadcast radios, televisions to Wi-Fi routers, walkie talkie radios to professional   communications systems etc.
 The On-chip clock multiplier is present in almost all synchronous processor chips (Integrated circuits).
 
 
 
 ## Table of Contents
 - [1. Introduction to On-chip clock multiplier](#1-introduction-to-On-chip-clock-multiplier)
-- [2. Theory](#2-Theory)
 - [3. EDA Tools Used](#3-eda-tools-used)
 - [4. Pre-layout Simulations](#4-Pre-layout-Simulations)
 - [5. Post-layout and Simulations](#5-Post-Layout-Simulations)
 - [6. Author](#6-Author)
 - [7. Acknowledgments](#7-acknowledgments)
-
-
-## 2. Theory
-
-The clock generator is one of the most crucial part in synchronous processor & probably most susceptible after power lines which can cause failure of entire circuitry if not designed properly.
-
-The phase locked loop or PLL is a circuit block that is widely used in radio frequency or wireless applications.
-
-In view of its usefulness, the phase locked loop or PLL is found in many wireless, radio, and general electronic items from mobile phones to broadcast radios, televisions to Wi-Fi routers, walkie talkie radios to professional communications systems etc.
-
-the circuit simulated here uses PLL block to get desired frequency at it’s output (which is 8 times to that of input frequency provided).
-This IP block can be used for clock distribution for processor chip.  
+- [8. References](#8-References)
 
 
 ## 4. EDA Tools Used 
@@ -221,5 +213,9 @@ However, using more mature & advanced nodes & PDK tech file, it can be made on s
 
  - Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
  - Paras Gidd, M.Tech.( Microelectronics ), Manipal Institute of Technology,(MAHE), parasgidd@gmail.com
+
+## 9. References
+
+- https://github.com/parasgidd/avsdpll_3v3.git
 
 
