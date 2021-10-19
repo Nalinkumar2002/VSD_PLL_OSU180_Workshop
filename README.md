@@ -54,7 +54,7 @@ Block Diagrm of PLL Design.
 
 </p>
 
-![Alt Text](Images/pfd_1.jpg)
+![Alt Text](Images/pfd_1.png)
 
 </p>
 
@@ -64,7 +64,7 @@ Schematic of PFD.
 
 </p>
 
-![Alt Text](Images/cp.jpg)
+![Alt Text](Images/cp.png)
 
 </p>
 
@@ -74,7 +74,7 @@ Schematic of Charge pump.
 
 </p>
 
-![Alt Text](Images/vco.jpg)
+![Alt Text](Images/vco.png)
 
 </p>
 
@@ -83,7 +83,7 @@ Schematic of VCO.
 </p>
 </p>
 
-![Alt Text](Images/pf2.jpg)
+![Alt Text](Images/pf2.png)
 
 </p>
 
@@ -92,7 +92,7 @@ Schematic of Frequency Divider by 2.
 </p>
 </p>
 
-![Alt Text](Images/pll2.jpg)
+![Alt Text](Images/pll2.png)
 
 </p>
 
