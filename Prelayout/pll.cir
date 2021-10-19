@@ -154,7 +154,7 @@ V1 N001 0 1.8
 
 ************simulation commands**************
 
-.tran .1ns 6u
+.tran 1ns 5u
 .ic V(vin_vco) = 0
 .control
 run
