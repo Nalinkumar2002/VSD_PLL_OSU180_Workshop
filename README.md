@@ -25,6 +25,7 @@
  PLL is found in many wireless, radio, and general electronic items from mobile phones to broadcast radios, televisions to Wi-Fi routers, walkie talkie radios to professional   communications systems etc.
 The On-chip clock multiplier is present in almost all synchronous processor chips (Integrated circuits).
 </p>
+
 ![Alt Text](Images/pll1.png)
 
 </p>
