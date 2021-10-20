@@ -145,10 +145,7 @@ Schematic of PLL.
 </p>
 
 Input-Output waveforms of Phase Frequency Detector (PFD) or Phase Detector (PD) </p>
-     Inputs - Fin (Input Frequency) &
-              Fvco_8 (Output Frequency divide by 8) </p> </p>
-     Outputs - Up Signal &
-               Down Signal         </p>
+
 
 </p>
 </p>
@@ -171,8 +168,7 @@ Layout of Voltage Controlled Oscillator (VCO)
 </p>
 
  Input-Output waveforms of Voltage Controlled Oscillator (VCO) </p>
-Vin - Input Voltage </p>
-Fout - Output Frequency
+
 
 </p>
 
@@ -192,8 +188,7 @@ Fout - Output Frequency
 </p>
 
 Input-Output waveforms of Frequency Divider by 2 </p>
-clk - Input Freqency. </p>
-q - Output Freqency (Input Freq. by 2). </p>
+
 
 </p>
 
@@ -212,8 +207,7 @@ q - Output Freqency (Input Freq. by 2). </p>
 </p>
 
  Input-Output waveforms of Frequency Divider by 8 </p>
-clk - Input Freqency. </p>
-q - Output Freqency (Input Freq. by 8). </p>
+
 
 </p>
 
@@ -228,11 +222,7 @@ q - Output Freqency (Input Freq. by 8). </p>
 
 </p>
 Input-Output waveforms of of 2:1 MUX </p> 
-i1 - Input 1 </p> 
-i2 - Input 2 </p> 
-sel - Select </p> 
-out - Output </p> 
-</p>
+
 
 ### F. Phase lock Loop 
 </p>
